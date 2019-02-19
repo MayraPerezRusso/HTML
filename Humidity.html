@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+        <div class="bar">
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand box-1" href="index.html"><strong>Lattitude</strong></a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                      <ul class="navbar-nav ml-auto open">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle collink" data-toggle="dropdown" href="#">Plots</a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Temperature.html">Temperature</a>
+                            <a class="dropdown-item" href="Cloudness.html">Cloudness</a>
+                            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="WindSpeed.html">WindSpeed</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html" style="color:gray">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Data.html" style="color:gray">Data</a>
+                        </li>       
+                      </ul>
+                    </div>  
+                </nav>
+            </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div id="main-desc" class="col">
+                <br>
+                <h2><strong>Humidity</strong></h2>
+                <hr>
+                <br>
+                <div id="img">
+                    <img alt="Humidity" src="Pictures/Humidity.png"/>
+                </div>
+                <br>    
+                <p>
+                    In this graph we can see that most of the cities in the sample have percentage of humidity over 60 and by the graph we also could see around half of the cities in the sample have high percentage of humidity over 80, these results are not correlated with latitude.
+                </p>
+            </div>
+            <div class="col-md-auto"></div>
+            <br>
+            <div id="grafics" class="col col-lg-4">
+                <br>
+                <h2> <strong>Visualizations</strong></h2>
+                <hr>
+                <br>
+                <div id="img" class="lineup">
+                    <a href="Temperature.html"><img width="170" src="Pictures/Temperature.png" class="lineup" alt="Temperature"></a>
+                    <a href="Cloudness.html"><img width="170" src="Pictures/Cloudness.png" class="lineup" alt="Cloudness"></a>
+                    <a href="Humidity.html"><img width="170" src="Pictures/Humidity.png" class="lineup" alt="Humidity"></a>
+                    <a href="WindSpeed.html"><img width="170" src="Pictures/WindSpeed.png" class="lineup" alt="WindSpeed"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
+        
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+</html>
